@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/outfox/!svn/ver/469322/products/armani/extension/milestones/chrome/3.0.4/src/js
+END
+loader.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/outfox/!svn/ver/469322/products/armani/extension/milestones/chrome/3.0.4/src/js/loader.js
+END
+notification.js
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/outfox/!svn/ver/469322/products/armani/extension/milestones/chrome/3.0.4/src/js/notification.js
+END
+bg.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/outfox/!svn/ver/469322/products/armani/extension/milestones/chrome/3.0.4/src/js/bg.js
+END
+options.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/outfox/!svn/ver/469322/products/armani/extension/milestones/chrome/3.0.4/src/js/options.js
+END
+order.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/outfox/!svn/ver/469322/products/armani/extension/milestones/chrome/3.0.4/src/js/order.js
+END
+tmpl.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/outfox/!svn/ver/469322/products/armani/extension/milestones/chrome/3.0.4/src/js/tmpl.js
+END
+order-notification.js
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/outfox/!svn/ver/469322/products/armani/extension/milestones/chrome/3.0.4/src/js/order-notification.js
+END
+deprice-notify.js
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/outfox/!svn/ver/469322/products/armani/extension/milestones/chrome/3.0.4/src/js/deprice-notify.js
+END
+log.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/outfox/!svn/ver/469322/products/armani/extension/milestones/chrome/3.0.4/src/js/log.js
+END
+popup.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/outfox/!svn/ver/469322/products/armani/extension/milestones/chrome/3.0.4/src/js/popup.js
+END

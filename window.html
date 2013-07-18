@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>songtaste</title>
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div id="music-info">
+        </div>
+        <div class="player">
+        <audio id="player" controls></audio>
+        <a class="next" href="#" node-type="next" title="next">
+            <i class="icon-forward btn-next"></i>
+            <i class="icon-refresh icon-spin btn-load"></i>
+        </a>
+        </div>
+        <ul id="play-list">
+        </ul>
+        <!--html template-->
+        <script mod-name="music-info" type="text/html">
+            <ul>
+                <li>歌曲名称: <a href="<%=musicUrl%>" node-type="play"><%=name%></a></li>
+                <li>下载: <a href="<%=musicUrl%>" node-type="download" download="<%=name%>">点击下载</a></li>
+            </ul>
+        </script>
+        <script mod-name="play-list" type="text/html">
+            <li>
+            <span>
+            歌曲名称: <a href="#" data-id="<%=songId%>" node-type="play"><%=name%></a>
+            </span>
+            <span style="float: right; color: #999;">
+                (下载: <a href="<%=musicUrl%>" node-type="download" download="<%=name%>">点击下载</a>)
+            </span>
+            </li>
+        </script>
+        <script type="text/javascript" charset="utf-8" src="lib/jquery.js"></script>
+        <script type="text/javascript" charset="utf-8" src="lib/underscore.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/tmpl.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/UICtrol.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/player.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/music.js"></script>
+    </body>
+</html>

@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,html {
+    width: 355px;
+    height: 400px;
+}
+body {
+    margin: 1px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+#music-info {
+    padding: 10px;
+    margin: 5px;
+    border-bottom: #efefef solid 1px;
+    height: 40px;
+}
+
+#player {
+    padding: 10px 0;
+    width: 315px;
+}
+
+#play-list {
+    border-top: #eee solid 1px;
+}
+#play-list li{
+    margin: 5px;
+    border-bottom: #efefef solid 1px;
+}
+
+.player {
+    background-color: #111;
+    padding-left: 40px;
+    position: relative;
+}
+.player .next {
+    display: block;
+    width: 40px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    color: #dedede;
+    font-size: 20px;
+}
+.player .next:hover {
+    color: #fff;
+}
+
+.player .next .btn-load {
+    display: none;
+}
+.player .active .btn-load {
+    display: inline-block;
+}
+.player .active .btn-next {
+    display: none;
+}

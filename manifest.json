@@ -1,0 +1,21 @@
+{
+    "description": "songtaste music box",
+    "name": "songtaste",
+    "version": "0.9",
+    "app": {
+        "background": {
+            "scripts": ["js/app.js"]
+        },
+        "content_scripts": [{
+            "js": ["lib/jquery.js", "js/main.js"],
+            "matches": ["http://songtaste.com/song/*"],
+            "run_at": "document_end"
+        }]
+    },
+    "minimum_chrome_version": "18",
+    "permissions": ["http://*/*", "https://*/*","notifications" ],
+    "icons": {
+        "128": "images/icon-128.png"
+    },
+    "manifest_version": 2
+}
