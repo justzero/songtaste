@@ -8,7 +8,7 @@
         },
         "content_scripts": [{
             "js": ["lib/jquery.js", "js/main.js"],
-            "matches": ["http://songtaste.com/song/*"],
+            "matches": ["http://*/*"],
             "run_at": "document_end"
         }]
     },
